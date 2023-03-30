@@ -1,0 +1,3 @@
+/home/mishoo/CLionProjects/prime1/cmake-build-debug/CMakeFiles/prime1.dir
+/home/mishoo/CLionProjects/prime1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mishoo/CLionProjects/prime1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

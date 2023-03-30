@@ -1,0 +1,12 @@
+
+out:4299 terminated with signal 11 at PC=7f03b977c830 SP=7ffc93f5a2a8.  Backtrace:
+/lib/x86_64-linux-gnu/libc.so.6(+0x17c830)[0x7f03b977c830]
+/lib/x86_64-linux-gnu/libmpich.so.12(+0x2177c6)[0x7f03b9c177c6]
+/lib/x86_64-linux-gnu/libmpich.so.12(+0x260e01)[0x7f03b9c60e01]
+/lib/x86_64-linux-gnu/libmpich.so.12(+0x20b5a89)[0x7f03bbab5a89]
+/lib/x86_64-linux-gnu/libmpich.so.12(+0x20b60f1)[0x7f03bbab60f1]
+/lib/x86_64-linux-gnu/libmpich.so.12(PMPI_Send+0x481)[0x7f03b9b15041]
+./out(+0x1859)[0x5624094b1859]
+/lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7f03b9629d90]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7f03b9629e40]
+./out(+0x11c5)[0x5624094b11c5]
