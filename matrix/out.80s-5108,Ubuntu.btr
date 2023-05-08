@@ -1,8 +1,0 @@
-
-out:5108 terminated with signal 11 at PC=7fbff5862af2 SP=7ffc390c07d0.  Backtrace:
-/lib/x86_64-linux-gnu/libc.so.6(+0x62af2)[0x7fbff5862af2]
-/lib/x86_64-linux-gnu/libc.so.6(__isoc99_fscanf+0x9d)[0x7fbff586229d]
-./out(+0x147d)[0x56364f9b247d]
-/lib/x86_64-linux-gnu/libc.so.6(+0x29d90)[0x7fbff5829d90]
-/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x80)[0x7fbff5829e40]
-./out(+0x1265)[0x56364f9b2265]
