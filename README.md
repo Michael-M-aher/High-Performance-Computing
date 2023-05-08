@@ -7,11 +7,11 @@
 ## Brief
 Collection of high performance computing concepts and code implementations in C.
 
-- [Message Encryption](https://github.com/High-Performance-Computing/tree/main/Message%20Encryption)
-- [Matrix Multiplication](https://github.com/High-Performance-Computing/tree/main/Matrix%20Multiplication)
-- [Value of PI](https://github.com/High-Performance-Computing/tree/main/Value%20of%20PI)
-- [Max Of Array](https://github.com/High-Performance-Computing/tree/main/Max%20Of%20Array)
-- [Counting Primes](https://github.com/High-Performance-Computing/tree/main/Counting%20Primes)
+- [Message Encryption](https://github.com/Michael-M-aher/High-Performance-Computing/tree/main/Message%20Encryption)
+- [Matrix Multiplication](https://github.com/Michael-M-aher/High-Performance-Computing/tree/main/Matrix%20Multiplication)
+- [Value of PI](https://github.com/Michael-M-aher/High-Performance-Computing/tree/main/Value%20of%20PI)
+- [Max Of Array](https://github.com/Michael-M-aher/High-Performance-Computing/tree/main/Max%20Of%20Array)
+- [Counting Primes](https://github.com/Michael-M-aher/High-Performance-Computing/tree/main/Counting%20Primes)
 
 
 ## Contributing
