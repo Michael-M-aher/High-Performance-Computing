@@ -41,7 +41,6 @@ int main(int argc , char * argv[]){
     /* Find out number of process */
     MPI_Comm_size(MPI_COMM_WORLD, &p);
 
-    char plainText[1000000];
     char unencryptedText[1000000];
     char encryptedText[1000000];
     int size_of_message=0,key,local_size;
@@ -57,19 +56,13 @@ int main(int argc , char * argv[]){
         printf("Error opening file\n");
         return 1;
     }
-    fgets(plainText, 1000000, fp);
-    fclose(fp);
+	char c = getc(fp);
+	while(c!=EOF){
+		unencryptedText[size_of_message++] = c;
+		c = getc(fp);
+	}
 
-    for (int i=0; i<1000000; i++)
-    {
-        if (plainText[i]=='\0') {
-            break;
-        }
-        else {
-            unencryptedText[i]=plainText[i];
-            size_of_message++;
-        }
-    }
+    fclose(fp);
 
     //Broadcast key value to all slaves
         printf("Enter KEY/SHIFT: ");
@@ -114,7 +107,7 @@ int main(int argc , char * argv[]){
 
         //print encrypted text
         printf("KEY/SHIFT: %d\n", key);
-        printf("Plaintext.txt:  %s\n", plainText);
+        printf("Plaintext.txt:  %s\n", unencryptedText);
         printf("Ciphertext.txt:  %s\n", encryptedText);
 
         //print encrypted text to output file
