@@ -7,7 +7,7 @@
 ## Brief
 Collection of high performance computing concepts and code implementations in C.
 
-- [Statistics Calculation](https://github.com/Michael-M-aher/High-Performance-Computing/tree/main/Statistics%Calculation)
+- [Statistics Calculation](https://github.com/Michael-M-aher/High-Performance-Computing/tree/main/Statistics%20Calculation)
 - [Message Encryption](https://github.com/Michael-M-aher/High-Performance-Computing/tree/main/Message%20Encryption)
 - [Matrix Multiplication](https://github.com/Michael-M-aher/High-Performance-Computing/tree/main/Matrix%20Multiplication)
 - [Value of PI](https://github.com/Michael-M-aher/High-Performance-Computing/tree/main/Value%20of%20PI)
