@@ -33,28 +33,7 @@ mpiexec -n <num of threads> ./out
 
 6. The program will calculate the mean, variance, and standard deviation and print the results to the console.
 
-### Open MP Usage
-
-To use the program for mean, variance, and standard deviation calculation, follow these steps:
-
-1. Clone the repository to your local machine.
-1. Compile the program using the following command:
-
-```
-g++ stat_omp.c -lgomp -o out
-```
-
-1. Run the program using the following command:
-
-```
-./out
-```
-
-1. Enter the necessary input values.
-
-1. The program will calculate the mean, variance, and standard deviation and print the results to the console.
-
-### Example
+### MPI Example
 
 Here's an example of how to use the program to calculate the mean, variance, and standard deviation:
 
@@ -66,7 +45,7 @@ Array elements: 2 4 4 4 5 5 7 9
 Running the program with 4 processes:
 
 ```
-mpiexec -n 4 ./out 8 2 4 4 4 5 5 7 9
+mpiexec -n 4 ./out
 ```
 
 Output:
@@ -85,7 +64,7 @@ Array elements: 4 5 6 6 7 9 12
 Running the program with 3 processes:
 
 ```
-mpiexec -n 3 ./out 7 4 5 6 6 7 9 12
+mpiexec -n 3 ./out
 ```
 
 Output:
@@ -93,3 +72,65 @@ Output:
 ```
 Mean = 7.0, Variance = 6.2857, Standard deviation = 2.5071
 ```
+
+### Open MP Usage
+
+To use the program for mean, variance, and standard deviation calculation, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Compile the program using the following command:
+
+```
+g++ stat_omp.c -o out -lgomp
+```
+
+3. Run the program using the following command:
+
+```
+./out
+```
+
+4. Enter the necessary input values.
+
+5. The program will calculate the mean, variance, and standard deviation and print the results to the console.
+
+### Open MP Example
+
+Here's an example of how to use the program to calculate the mean, variance, and standard deviation:
+
+```
+Array size: 8
+Array elements: 2 4 4 4 5 5 7 9
+```
+
+Running the program:
+
+```
+./out 
+```
+
+Output:
+
+```
+Mean = 5.0, Variance = 4.0, Standard deviation = 2.0
+```
+
+Another example with 7 elements:
+
+```
+Array size: 7
+Array elements: 4 5 6 6 7 9 12
+```
+
+Running the program with 3 processes:
+
+```
+./out
+```
+
+Output:
+
+```
+Mean = 7.0, Variance = 6.2857, Standard deviation = 2.5071
+```
+
